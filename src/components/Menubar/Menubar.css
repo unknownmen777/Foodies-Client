@@ -1,0 +1,7 @@
+
+ .active {
+    color: tomato !important;
+ }
+ .no-arrow::after {
+   display: none !important;
+ }

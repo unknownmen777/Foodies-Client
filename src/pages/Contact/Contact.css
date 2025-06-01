@@ -1,0 +1,23 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+  }
+
+  .contact-form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+
+  .contact-form label {
+    font-weight: 700;
+  }
+
+  .contact-form .form-control {
+    border-radius: 5px;
+  }
+
+  .contact-form textarea {
+    resize: none;
+  }
