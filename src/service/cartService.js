@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = "http://localhost:8080/api/cart";
+const API_URL = "https://fooddies.up.railway.app/api/cart";
 
 export const addToCart= async (foodId, token)=>{
     try {

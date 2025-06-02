@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
-const API_URL = 'http://localhost:8080/api/foods';
+const API_URL = 'https://fooddies.up.railway.app/api/foods';
 
 export const fetchFoodList = async () => {
         try {

@@ -27,8 +27,8 @@ const PlaceOrder = () => {
     product_service_charge: "0",
     product_delivery_charge: "0",
     product_code: "EPAYTEST",
-    success_url: "http://localhost:5173/myorder",
-    failure_url: "http://localhost:5173/order",
+    success_url: "https://fooddies.up.railway.app/myorder",
+    failure_url: "https://fooddies.up.railway.app/order",
     signed_field_names: "total_amount,transaction_uuid,product_code",
     signature: "",
     secret: "8gBm/:&EnhH.1/q",
@@ -109,7 +109,7 @@ const PlaceOrder = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8080/api/orders/create",
+        "https://fooddies.up.railway.app/api/orders/create",
         orderData,
         { headers: { Authorization: `Bearer ${token}` } }
       );
